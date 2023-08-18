@@ -10,6 +10,6 @@ let apple = {
   name: '사과',
 };
 let orange = apple; // orange는 apple의 주소값을 가짐
-orange.name = '오렌지'; // apple의 주소에 name 값을 오렌지로 변경
-console.log(apple); // apple의 값도 변경됨
+orange.name = '오렌지'; // apple주소에 name값을 오렌지로 변경
+console.log(apple); // apple의 값이 변경됨
 console.log(orange);
