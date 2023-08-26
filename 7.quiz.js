@@ -10,5 +10,5 @@ function iterate(max, action) {
   }
 }
 
-iterate(5, (num) => {console.log(num);});
-iterate(5, (num) => {console.log(num * 2);});
+iterate(5, (num) => console.log(num));
+iterate(5, (num) => console.log(num * 2));
