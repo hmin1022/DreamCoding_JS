@@ -4,3 +4,5 @@ const apple = {
     console.log(`${this.name}: 🍎`);
   },
 }
+
+apple.display();
