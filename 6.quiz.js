@@ -3,13 +3,18 @@
 // Counter 클래스 만들기
 class Counter {
   constructor(value) {
+    if(isNaN(startValue) || startValue < 0) {
+      this.#value = 0;
+    } else {
+      this.#value = startValue;
+    }
     this.value = value;
   }
-  increment() {
-    return this.value += 1;
+  increment = () => {
+    this.#value++;
   }
   get value() {
-    console.log(this.value);
+    return this.#value;
   }
 }
 
